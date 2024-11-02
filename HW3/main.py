@@ -28,7 +28,7 @@ def index():
 
 # insert a new row (5, 'Cherry') into basket_a. On the browser, it should either show "Success!" 
 # Or error message from PostgreSQL.
-@app.route('/update_basket_a')
+@app.route('/api/update_basket_a')
 def update_basket_a():
     cursor, connection = util.connect_to_db(username,password,host,port,database)
 
@@ -40,7 +40,7 @@ def update_basket_a():
 
 # show unique fruits in basket_a and unique fruits in basket_b in an HTML table. 
 # If there are any errors from PostgreSQL, show the error message on the browser.
-@app.route('/unique')
+@app.route('/api/unique')
 def unique():
     cursor, connection = util.connect_to_db(username,password,host,port,database)
 
