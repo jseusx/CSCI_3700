@@ -1,4 +1,6 @@
 HW3: This project shows how to insert a new row and show an error or Sucess messaage on the front end. It also shows how to present a data table with unique values from two tables.
+# Team Members:
+Jesus Jimenez
 ## Quick Start
 ### Local Test Setup
 Once you have downloaded the repository, cd into the folder.
