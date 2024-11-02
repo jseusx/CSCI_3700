@@ -27,6 +27,7 @@ Then you can start the server with:
 ```
 python3 main.py
 ```
+### What can be done:
 From here, you are introduced to a simple Index page.<br>
 You can input '/api/update_basket_a' to insert a new row (5,'Cherry') into table basket_a. If the value exists, it will show an error. If the process is able to be completed, it will display "Success!"<br>
 You can input '/api/unique' to display the unique fruits in basket_a and in basket_b in a **HTML table**.
