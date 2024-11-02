@@ -1,8 +1,9 @@
-HW3: This project shows how to insert a new row and show an error or Sucess messaage on the front end. It also shows how to present a data table with unique values from two tables.
+HW3: This assignment shows how to insert a new row and show an error or "Sucess!" messaage on the front end. It also shows how to present a data table with unique values from two tables.
 # Team Members:
 Jesus Jimenez
 ## Quick Start
 ### Database setup:
+For this assignment, you must have these two tables in your database:
 ```
 CREATE TABLE basket_a (
 
